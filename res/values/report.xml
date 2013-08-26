@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello_bmi">BMI 報告</string>
+	<string name="report_title">BMI 報告</string>
+    <string name="report_back">上一頁</string>
+    <string name="bmi_result">BMI值為:</string>
+    <string name="advice_heavy">太胖嚕!注意飲食多運動!</string>
+    <string name="advice_light">太瘦嚕!多攝取點!</string>
+    <string name="advice_average">剛剛好!繼續保持!</string>
+    
+    
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BMI_Calc</string>
+    <string name="action_settings">Settings</string>
+    <string name="height_cm">身高(cm)</string>
+    <string name="weight_kg">體重(kg)</string>
+    <string name="submit">換算</string>
+    <string name="calc">計算BMI</string>
+	<string name="result_height">身高(feet)</string>
+	<string name="result_weight">體重(pound)</string>
+    
+    <string name="error_msg">Oops!! Please check the input number.</string>
+    
+    <string name="about">About</string>
+    <string name="about_title">關於BMI Calc</string>
+    <string name="about_msg">Android BMI Calc\n作者: Joey \n\nChengyi_ho@gemteks.com</string>
+    <string name="ok_label">OK</string>
+    <string name="contact_label">聯絡作者</string>
+    <string name="google_label">Google</string>
+    <string name="google_url">http://www.google.com.tw</string>
+    
+</resources>
