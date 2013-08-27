@@ -19,5 +19,5 @@
     <string name="contact_label">聯絡作者</string>
     <string name="google_label">Google</string>
     <string name="google_url">http://www.google.com.tw</string>
-    
+    <string name="array_demo">http://www.google.com.tw</string>
 </resources>

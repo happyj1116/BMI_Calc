@@ -25,18 +25,19 @@ public final class R {
     }
     public static final class id {
         public static final int about=0x7f080004;
-        public static final int action_settings=0x7f08000d;
+        public static final int action_settings=0x7f08000e;
         public static final int calc=0x7f080008;
         public static final int height_cm=0x7f080000;
-        public static final int hello_bmi=0x7f080009;
+        public static final int hello_bmi=0x7f08000a;
         public static final int input_height=0x7f080001;
         public static final int input_weight=0x7f080003;
-        public static final int report_back=0x7f08000c;
-        public static final int result=0x7f08000a;
+        public static final int report_back=0x7f08000d;
+        public static final int result=0x7f08000b;
         public static final int result_feet=0x7f080006;
         public static final int result_pound=0x7f080007;
+        public static final int spinner1=0x7f080009;
         public static final int submit=0x7f080005;
-        public static final int suggest=0x7f08000b;
+        public static final int suggest=0x7f08000c;
         public static final int weight_kg=0x7f080002;
     }
     public static final class layout {
@@ -55,6 +56,7 @@ public final class R {
         public static final int advice_heavy=0x7f050004;
         public static final int advice_light=0x7f050005;
         public static final int app_name=0x7f050007;
+        public static final int array_demo=0x7f050017;
         public static final int bmi_result=0x7f050003;
         public static final int calc=0x7f05000c;
         public static final int contact_label=0x7f050014;

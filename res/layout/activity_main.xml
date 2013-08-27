@@ -75,5 +75,12 @@
         android:layout_above="@+id/result_feet"
         android:layout_centerHorizontal="true"
         android:text="@string/calc" />
-    
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/result_feet"
+        android:layout_centerVertical="true" />
+    	
 </RelativeLayout>

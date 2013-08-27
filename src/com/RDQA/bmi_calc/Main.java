@@ -45,7 +45,14 @@ public class Main extends Activity
 
 		// 等待BMI計算按鈕被戳函式
 		BMISetListeners();
-
+		int submit = 1;
+		if (submit == 1)
+		{
+			Log.i("Info_submit", "submit is 1.");
+		} else
+		{
+			Log.e("Error_submit", "submit is not 1.");
+		}
 	}
 
 	private void findViews()
@@ -64,6 +71,11 @@ public class Main extends Activity
 	// 等待換算按鈕被戳函式
 	private void CalcSetListeners()
 	{
+		Log.e("errorMessage", "This is an error message.");
+		Log.w("warnMessage", "This is a warn message.");
+		Log.i("infoMessage", "This is an info message.");
+		Log.d("debugMessage", "This is a debug message.");
+		Log.v("verboseMessage", "This is a verbose message.");
 
 		// 透過前面宣告的TAG_Calc標籤，方便在CalcSetListeners()涵式中Debug
 		// d=debug 除錯資訊
