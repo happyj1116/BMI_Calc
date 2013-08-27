@@ -20,12 +20,17 @@ public class Report extends Activity
 	@Override
 	public void onCreate(Bundle savedInstanceState)
 	{
-		Log.e("Report.java_errorMessage", "This is an error message on Report.java.");
-		Log.w("Report.java_warnMessage", "This is a warn message on Report.java.");
-		Log.i("Report.java_infoMessage", "This is an info message on Report.java.");
-		Log.d("Report.java_debugMessage", "This is a debug message on Report.java.");
-		Log.v("Report.java_verbloseMessage", "This is a verbose message on Report.java.");
-		
+		Log.e("Report.java_errorMessage",
+				"This is an error message on Report.java.");
+		Log.w("Report.java_warnMessage",
+				"This is a warn message on Report.java.");
+		Log.i("Report.java_infoMessage",
+				"This is an info message on Report.java.");
+		Log.d("Report.java_debugMessage",
+				"This is a debug message on Report.java.");
+		Log.v("Report.java_verbloseMessage",
+				"This is a verbose message on Report.java.");
+
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.report);
 
