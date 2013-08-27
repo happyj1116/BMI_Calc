@@ -1,0 +1,129 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (javaClasses.cpp:129), pid=25396, tid=7208
+#  fatal error: Invalid layout of preloaded class
+#
+# JRE version: 7.0_25-b17
+# Java VM: Java HotSpot(TM) Client VM (23.25-b01 mixed mode windows-x86 )
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.sun.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x01b4b000):  JavaThread "Unknown thread" [_thread_in_vm, id=7208, stack(0x01a80000,0x01ad0000)]
+
+Stack: [0x01a80000,0x01ad0000],  sp=0x01acf358,  free space=316k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x167e31]
+V  [jvm.dll+0x1620f6]
+V  [jvm.dll+0x1f92f]
+V  [jvm.dll+0x1f9b6]
+V  [jvm.dll+0x2cffd]
+V  [jvm.dll+0x2d2a9]
+V  [jvm.dll+0x75351]
+V  [jvm.dll+0x7570b]
+V  [jvm.dll+0x123881]
+V  [jvm.dll+0x1439cc]
+V  [jvm.dll+0xa619f]
+C  [javaw.exe+0x13ca]
+C  [javaw.exe+0x1e3c]
+C  [javaw.exe+0xa5b1]
+C  [javaw.exe+0xa63b]
+C  [kernel32.dll+0x4ed6c]  BaseThreadInitThunk+0x12
+C  [ntdll.dll+0x6377b]  RtlInitializeExceptionChain+0xef
+C  [ntdll.dll+0x6374e]  RtlInitializeExceptionChain+0xc2
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x01b4b000 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=7208, stack(0x01a80000,0x01ad0000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (10 events):
+Event: 0.317 loading class 0x01983608 done
+Event: 0.318 loading class 0x019824f8 done
+Event: 0.318 loading class 0x019824d0
+Event: 0.318 loading class 0x019f7c68
+Event: 0.318 loading class 0x019f7c68 done
+Event: 0.318 loading class 0x019f7ca0
+Event: 0.318 loading class 0x019f7ca0 done
+Event: 0.318 loading class 0x019ede18
+Event: 0.318 loading class 0x019ede18 done
+Event: 0.318 loading class 0x019824d0 done
+
+
+Dynamic libraries:
+0x00930000 - 0x0095f000 	C:\Program Files\Java\jre7\bin\javaw.exe
+0x779e0000 - 0x77b1c000 	C:\Windows\SYSTEM32\ntdll.dll
+0x76200000 - 0x762d4000 	C:\Windows\system32\kernel32.dll
+0x75de0000 - 0x75e2b000 	C:\Windows\system32\KERNELBASE.dll
+0x77b70000 - 0x77c10000 	C:\Windows\system32\ADVAPI32.dll
+0x77830000 - 0x778dc000 	C:\Windows\system32\msvcrt.dll
+0x75e30000 - 0x75e49000 	C:\Windows\SYSTEM32\sechost.dll
+0x77780000 - 0x77821000 	C:\Windows\system32\RPCRT4.dll
+0x760d0000 - 0x76199000 	C:\Windows\system32\USER32.dll
+0x772f0000 - 0x7733e000 	C:\Windows\system32\GDI32.dll
+0x763a0000 - 0x763aa000 	C:\Windows\system32\LPK.dll
+0x76300000 - 0x7639d000 	C:\Windows\system32\USP10.dll
+0x74840000 - 0x749de000 	C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_41e6975e2bd6f2b2\COMCTL32.dll
+0x761a0000 - 0x761f7000 	C:\Windows\system32\SHLWAPI.dll
+0x762e0000 - 0x762ff000 	C:\Windows\system32\IMM32.DLL
+0x776b0000 - 0x7777c000 	C:\Windows\system32\MSCTF.dll
+0x5e4b0000 - 0x5e56e000 	C:\Program Files\Java\jre7\bin\msvcr100.dll
+0x5b8c0000 - 0x5bc02000 	C:\Program Files\Java\jre7\bin\client\jvm.dll
+0x72ac0000 - 0x72ac7000 	C:\Windows\system32\WSOCK32.dll
+0x77b20000 - 0x77b55000 	C:\Windows\system32\WS2_32.dll
+0x77b60000 - 0x77b66000 	C:\Windows\system32\NSI.dll
+0x74090000 - 0x740c2000 	C:\Windows\system32\WINMM.dll
+0x76570000 - 0x76575000 	C:\Windows\system32\PSAPI.DLL
+0x71df0000 - 0x71dfc000 	C:\Program Files\Java\jre7\bin\verify.dll
+0x6f0b0000 - 0x6f0d0000 	C:\Program Files\Java\jre7\bin\java.dll
+0x6dd00000 - 0x6dd13000 	C:\Program Files\Java\jre7\bin\zip.dll
+0x72210000 - 0x722fb000 	C:\Windows\system32\dbghelp.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=MS950 -Xbootclasspath:I:\adt-bundle-windows-x86-20130729\sdk\platforms\android-17\android.jar 
+java_command: com.RDQA.bmi_calc.Test1
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=C:/Program Files/Java/jre7/bin/client;C:/Program Files/Java/jre7/bin;C:/Program Files/Java/jre7/lib/i386;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\Broadcom\Broadcom 802.11 Network Adapter\Driver;C:\Program Files\Java\jdk1.7.0_25\bin;I:\adt-bundle-windows-x86-20130729\sdk\platform-tools;I:\adt-bundle-windows-x86-20130729\eclipse;
+USERNAME=Jacky_Huang
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=x86 Family 6 Model 37 Stepping 5, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 7 Build 7601 Service Pack 1
+
+CPU:total 4 (2 cores per cpu, 2 threads per core) family 6 model 37 stepping 5, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, ht, tsc, tscinvbit
+
+Memory: 4k page, physical 2937344k(180960k free), swap 5872936k(1572248k free)
+
+vm_info: Java HotSpot(TM) Client VM (23.25-b01) for windows-x86 JRE (1.7.0_25-b17), built on Jun 21 2013 13:06:48 by "java_re" with unknown MS VC++:1600
+
+time: Tue Aug 27 16:57:10 2013
+elapsed time: 0 seconds
+
